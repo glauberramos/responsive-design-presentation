@@ -1,8 +1,10 @@
 .teste {
+  background-size: 100%;
   background-image: url('../img/teste.jpeg');
 }
 
 .teste2 {
+  background-size: 100%;
   background-image: url('../img/fireplace.jpg');
 }
 
@@ -11,22 +13,9 @@
   position: relative;
 }
 
-
-/*
-section {
-  top: 30% !important;
-  position: absolute !important;
-}
-
-.slides {
-  top: 0 !important;
-}
-*/
-
 .fullscreen .state-background {
   width: 100%;
   height: 100%;
-  background-size: cover;
 }
 
 .fullscreen .reveal:not(.overview) .slides {
