@@ -3,14 +3,35 @@
   background-image: url('../img/teste.jpeg');
 }
 
+.book {
+  background-size: 100%;
+  background-image: url('../img/book.png');
+}
+
+.black {
+  background-size: 100%;
+  background-image: url('../img/black.jpg');
+}
+
+.devices {
+  background-size: 100%;
+  background-image: url('../img/devices.png');
+}
+
+.book h1 {
+  padding-top: 15% !important;
+  padding-left: 25% !important;
+  color: black !important;
+}
+
 .teste2 {
   background-size: 100%;
   background-image: url('../img/fireplace.jpg');
 }
 
-.teste h1, .teste2 h1  {
-  top: 25%;
-  position: relative;
+.example {
+  background-size: 100%;
+  background-image: url('../img/example.png');
 }
 
 .fullscreen .state-background {
@@ -41,7 +62,7 @@
   bottom: 0px;
   margin:0px;
   padding:20px;
-  padding-top: 40px;
+  padding-top: 20%;
 }
 
 .fullscreen .reveal:not(.overview) .slides > section > section {

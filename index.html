@@ -26,11 +26,6 @@
 					</p>
 				</section>
 				<section>
-					<blockquote>
-						The control which designers know in the print medium, and often desire in the web medium, is simply a function of the limitation of the printed page. We should embrace the fact that the web doesn’t have the same constraints, and design for this flexibility. But first, we must “accept the ebb and flow of things.
-					</blockquote>
-				</section>
-				<section>
 					<h1>Summary</h1>
 					<ol>
 						<li class="fragment">Isn't new</li>
@@ -38,6 +33,18 @@
 						<li class="fragment">Mobile First and Progressive Enhancement</li>
 						<li class="fragment">Demos</li>
 					</ol>
+				</section>
+				<section class="book" data-state="fullscreen">
+					<h1>Ethan Marcotte</h1>
+				</section>
+				<section class="devices" data-state="fullscreen">
+				</section>
+				<section class="example" data-state="fullscreen">
+				</section>
+				<section class="black" data-state="fullscreen">
+					<blockquote>
+						The control which designers know in the print medium, and often desire in the web medium, is simply a function of the limitation of the printed page. We should embrace the fact that the web doesn’t have the same constraints, and design for this flexibility. But first, we must “accept the ebb and flow of things.
+					</blockquote>
 				</section>
 				<section>
 					<section>
@@ -62,18 +69,13 @@
 				<section>
 					<h2>Media Queries</h2>
 					<pre><code contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
+@media screen and (min-width: 320px) {
+  #navigation {
+    display: none;
+  }
 
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) ) {
-        node.className += ' roll';
-      }
-    };
+  #sitemap-container ul {
+    margin-left: 5%;
   }
 }
 					</code></pre>
@@ -81,18 +83,13 @@ function linkify( selector ) {
 				<section>
 					<h2>Media Types</h2>
 					<pre><code contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
+@media screen and (min-width: 320px) {
+  #navigation {
+    display: none;
+  }
 
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) ) {
-        node.className += ' roll';
-      }
-    };
+  #sitemap-container ul {
+    margin-left: 5%;
   }
 }
 					</code></pre>
