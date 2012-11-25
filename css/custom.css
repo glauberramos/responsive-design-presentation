@@ -1,5 +1,5 @@
 .book {
-  background-size: 97%;
+  background-size: 100% 85%;
   background-image: url('../img/book.png');
 }
 
@@ -8,22 +8,22 @@ h2 {
 }
 
 .black {
-  background-size: 97%;
+  background-size: 100%;
   background-image: url('../img/black.jpg');
 }
 
 .devices {
-  background-size: 97%;
+  background-size: 100%;
   background-image: url('../img/devices.png');
 }
 
 .demo {
-  background-size: 97% 80%;
+  background-size: 100% 85%;
   background-image: url('../img/demo.jpg');
 }
 
 .example {
-  background-size: 97%;
+  background-size: 100%;
   background-image: url('../img/example.png');
 }
 
