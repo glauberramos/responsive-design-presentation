@@ -27,6 +27,21 @@ h2 {
   background-image: url('../img/example.png');
 }
 
+.folks {
+  background-size: 100%;
+  background-image: url('../img/folks.jpg');
+}
+
+.toolset {
+  background-size: 100%;
+  background-image: url('../img/toolset.jpg');
+}
+
+.toolset h2 {
+  color: black !important;
+  background: #CED2BB;
+}
+
 .book h1 {
   padding-top: 15% !important;
   padding-left: 25% !important;
