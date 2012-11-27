@@ -3,27 +3,27 @@
   background-image: url('../img/book.png');
 }
 
-h2 {
+h2, h3 {
   text-align: center;
 }
 
 .black {
-  background-size: 100%;
+  background-size: 100% 100%;
   background-image: url('../img/black.jpg');
 }
 
 .devices {
-  background-size: 100%;
+  background-size: 100% 100%;
   background-image: url('../img/devices.png');
 }
 
 .old {
-  background-size: 100%;
+  background-size: 100% 100%;
   background-image: url('../img/old.jpg');
 }
 
 .mobilefirst {
-  background-size: 100%;
+  background-size: 100% 100%;
   background-image: url('../img/mobilefirst.jpg');
 }
 
@@ -55,17 +55,17 @@ h2 {
 }
 
 .example {
-  background-size: 100%;
+  background-size: 100% 100%;
   background-image: url('../img/example.png');
 }
 
 .folks {
-  background-size: 100%;
+  background-size: 100% 100%;
   background-image: url('../img/folks.jpg');
 }
 
 .toolset {
-  background-size: 100%;
+  background-size: 100% 100%;
   background-image: url('../img/toolset.jpg');
 }
 
