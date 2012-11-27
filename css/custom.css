@@ -17,9 +17,26 @@ h2 {
   background-image: url('../img/devices.png');
 }
 
+.old {
+  background-size: 100%;
+  background-image: url('../img/old.jpg');
+}
+
 .demo {
   background-size: 100% 85%;
   background-image: url('../img/demo.jpg');
+}
+
+.demo ul {
+  list-style: none !important;
+}
+
+.demo ul li {
+  font-size: 1.3em;
+}
+
+.demo ul li a {
+  color: white !important;
 }
 
 .example {
@@ -40,6 +57,7 @@ h2 {
 .toolset h2 {
   color: black !important;
   background: #CED2BB;
+  padding: 10px 0px !important;
 }
 
 .book h1 {
