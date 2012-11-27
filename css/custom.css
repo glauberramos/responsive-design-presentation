@@ -13,7 +13,7 @@ h2, h3 {
 }
 
 .devices {
-  background-size: 100% 100%;
+  background-size: 100% 80%;
   background-image: url('../img/devices.png');
 }
 
@@ -55,12 +55,12 @@ h2, h3 {
 }
 
 .example {
-  background-size: 100% 100%;
+  background-size: 100% 80%;
   background-image: url('../img/example.png');
 }
 
 .folks {
-  background-size: 100% 100%;
+  background-size: 100% 80%;
   background-image: url('../img/folks.jpg');
 }
 
