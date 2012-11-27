@@ -22,6 +22,11 @@ h2 {
   background-image: url('../img/old.jpg');
 }
 
+.mobilefirst {
+  background-size: 100%;
+  background-image: url('../img/mobilefirst.jpg');
+}
+
 .demo {
   background-size: 100% 85%;
   background-image: url('../img/demo.jpg');
@@ -37,6 +42,16 @@ h2 {
 
 .demo ul li a {
   color: white !important;
+}
+
+.content {
+  width: 900px;
+}
+
+.mediatypes ul li, .mediaqueries ul li  {
+  list-style: none;
+  font-size: 0.7em !important;
+  line-height: 1em;
 }
 
 .example {

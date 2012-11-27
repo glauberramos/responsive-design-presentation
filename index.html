@@ -56,25 +56,29 @@
 				</section>
 				<section data-state="fullscreen">
 					<h2>Flexible Grid</h2>
-					<pre><code contenteditable>
+					<pre class="content"><code class="change" contenteditable>
 .content {
-  padding: 4% 4.5%;
-  width: 91%;
+  padding: 4%;
+  width: 900px;
 }
 					</code></pre>
 				</section>
 				<section data-state="fullscreen">
 					<h2>Flexible Images</h2>
 					<pre><code contenteditable>
-#header.cejak {
-  background: url('cejak/header_original.jpg'); 
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 100%;
+.figure-container {
+  float: right;
+  margin-bottom: 0.5em;
+  width: 48.7341772%; /* 231px / 474px */
+}
+
+img {
+  max-width: 100%;
 }
 				</code></pre>
+				<a href="http://clagnut.com/sandbox/imagetest/">Fluid Image Tests</a>
 				</section>
-				<section data-state="fullscreen">
+				<section class="mediatypes" data-state="fullscreen">
 					<h2>Media Types</h2>
 					<pre><code contenteditable>
 @media screen and (min-width: 320px) {
@@ -87,8 +91,15 @@
   }
 }
 					</code></pre>
+					<ul>
+						<li>Screen</li>
+						<li>Print</li>
+						<li>Tv</li>
+						<li>Projection</li>
+						<li>All</li>
+					</ul>
 				</section>
-				<section data-state="fullscreen">
+				<section class="mediaqueries" data-state="fullscreen">
 					<h2>Media Queries</h2>
 					<pre><code contenteditable>
 @media screen and (min-width: 320px) {
@@ -101,6 +112,12 @@
   }
 }
 					</code></pre>
+					<ul>
+						<li>min-width min-height</li>
+						<li>max-width max-height</li>
+						<li>device-aspect-ratio</li>
+						<li>orientation</li>
+					</ul>
 				</section>
 				<section data-state="fullscreen">
 					<h2>Meta Tag</h2>
@@ -126,6 +143,7 @@
 					<h2>Resizing the browser</h2>
 					<h3>Breakpoint when content breaks</h3>
 				</section>
+				<section class="mobilefirst" data-state="fullscreen"></section>
 				<section class="demo" data-state="fullscreen">
 					<ul>
 						<li><a href="http://scottjehl.github.com/Respond/test/test.html">Demo 1</a></li>
@@ -138,6 +156,7 @@
         			<h2>More information</h2>
         			<ul>
         				<li>http://www.alistapart.com/articles/responsive-web-design/</li>
+        				<li>http://www.alistapart.com/articles/dao/</li>
         				<li>http://www.abookapart.com/products/responsive-web-design</li>
         				<li>http://mediaqueri.es/</li>
         				<li>http://mattkersley.com/responsive/</li>
@@ -146,11 +165,12 @@
         				<li>http://foundation.zurb.com/</li>
         				<li>http://www.netmagazine.com/features/top-responsive-web-design-problems-and-how-avoid-them</li>
         				<li>http://bradfrostweb.com/blog/web/responsive-nav-patterns/</li>
-
 				</section>
 				<section class="folks" data-state="fullscreen"></section>
 			</div>
 		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/custom.js"></script>
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.min.js"></script>
 		<script>
