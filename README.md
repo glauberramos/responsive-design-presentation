@@ -1,0 +1,1 @@
+Online version: http://glauberramos.github.com/responsive-design-presentation/
